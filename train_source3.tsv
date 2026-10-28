@@ -1,0 +1,56 @@
+entity_id	business_name	business_address	country
+S3-01001	Blue Sky Logistics LLC	550 Market Street, Floor 12, San Francisco, CA 94105	United States
+S3-01002	Global Tech Solutions Inc.	1 Penn Plaza, New York, NY 10119	United States
+S3-01003	Horizon BioPharma Labs	400 technology sq, cambridge, ma 02139	United States
+S3-01004	Jupiter Retail Enterprises Inc.	500 Pine St, St. Louis, MO 63101	United States
+S3-01005	Infosys Technologies Pvt Ltd	Electronics City, Hosur Road, Bengaluru 560100	India
+S3-01006	Wipro Digital Solutions Inc.	Doddakannelli, Sarjapur Road, Bengaluru 560035	India
+S3-01007	HDFC Financial Services Ltd	hdfc bank house, senapati bapat marg, lower parel, mumbai 400013	India
+S3-01008	bharti airtel telecommunications	Bharti Crescent 1 Nelson Mandela Road Vasant Kunj New Delhi 110070	India
+S3-01009	Larsen & Toubro Construction	l&t house, ballard estate, mumbai 400001	India
+S3-01010	Sun Pharmaceutical Industries Inc.	SUN House, CTS No 201 B/1, Western Express Highway, Goregaon East, Mumbai 400063	India
+S3-01011	SOCIÉTÉ GÉNÉRALE SA	29 boulevard haussmann, 75009 paris	France
+S3-01012	Schneider Electric SE	35 Rue Joseph Monier, 92500 Rueil-Malmaison	France
+S3-01013	danone agro-alimentaire	17 Boulevard Haussmann, 75009 Paris	France
+S3-01014	Air France-KLM Group	45 Rue de Paris, 95747 Roissy CDG	France
+S3-01015	Cascade Health Systems Inc Branch 1	300 800 bellevue way ne, bellevue, wa 98004	United States
+S3-01016	EVERGREEN RENEWABLE ENERGY BRANCH 1	320 1200 6th Ave, Seattle, WA 98101	United States
+S3-01017	Frontier Financial Services Branch 1	330 300 s wacker dr, chicago, il 60606	United States
+S3-01018	IMPERIAL AUTOMOTIVE GROUP BRANCH 1	360 700 Michigan Ave, Detroit, MI 48226	United States
+S3-01019	Tata Consultancy Services Ltd Branch 1	380 Nirmal Building 9th Floor Nariman Point Mumbai 400021	India
+S3-01020	infosys technologies pvt ltd branch 1	390 Electronics City, Hosur Rd, Bengaluru 560100	India
+S3-01021	wipro digital solutions branch 1	400 Doddakannelli, Sarjapur Road, Bengaluru 560035	India
+S3-01022	Reliance Industries Ltd Branch 1	410 Maker Chambers IV, 222 Nariman Point, Mumbai 400021	India
+S3-01023	HDFC FINANCIAL SERVICES LTD BRANCH 1	420 HDFC Bank House, Senapati Bapat Marg, Lower Parel, Mumbai 400013	India
+S3-01024	LARSEN & TOUBRO CONSTRUCTION BRANCH 1	450 L&T House, Ballard Estate, Mumbai 400001	India
+S3-01025	Capgemini Engineering Services Branch 1	530 11 Rue de Tilsitt 75017 Paris	France
+S3-01026	Evergreen Renewable Energy Branch 2	600 1200 6th Ave Seattle WA 98101	United States
+S3-01027	GLOBAL TECH SOLUTIONS BRANCH 2	620 1 Penn Plaza, New York, NY 10119	United States
+S3-01028	Imperial Automotive Group Branch 2	640 700 Michigan Ave, Detroit, MI 48226	United States
+S3-01029	INFOSYS TECHNOLOGIES PVT LTD BRANCH 2	670 Electronics City, Hosur Road, Bengaluru 560100	India
+S3-01030	Reliance Industries Limited Branch 2	690 maker chambers iv, 222 nariman point, mumbai 400021	India
+S3-01031	Sun Pharmaceutical Industries Branch 2	740 SUN House, CTS No 201 B/1, Western Express Highway, Goregaon East, Mumbai 400063	India
+S3-01032	Adani Enterprises Limited Branch 2 Inc.	750 Adani Corporate House, Shantigram, Near Vaishno Devi Circle, Ahmedabad 382421	India
+S3-01033	TotalEnergies Marketing SARL Branch 2	770 2 Place Jean Millier, 92400 Courbevoie	France
+S3-01034	Schneider Electric SE Branch 2	780 35 rue joseph monier, 92500 rueil-malmaison	France
+S3-01035	DANONE AGRO-ALIMENTAIRE BRANCH 2	790 17 Boulevard Haussmann 75009 Paris	France
+S3-01036	Unrelated Apex Technologies Corp	8888 Nowhere St, 100 Industrial Parkway, Suite 400, Austin, TX 78701	United States
+S3-01037	Unrelated Blue Sky Logistics LLC	8888 Nowhere St, 550 Market Street, Floor 12, San Francisco, CA 94105	United States
+S3-01038	Unrelated Cascade Health Systems Inc	8888 Nowhere St, 800 Bellevue Way NE, Bellevue, WA 98004	United States
+S3-01039	Unrelated Dynamic Digital Media Group	8888 Nowhere St, 200 Fifth Avenue, New York, NY 10010	United States
+S3-01040	Unrelated Evergreen Renewable Energy	8888 Nowhere St, 1200 6th Ave, Seattle, WA 98101	United States
+S3-01041	Unrelated Frontier Financial Services	8888 Nowhere St, 300 S Wacker Dr, Chicago, IL 60606	United States
+S3-01042	Unrelated Global Tech Solutions	8888 Nowhere St, 1 Penn Plaza, New York, NY 10119	United States
+S3-01043	Unrelated Horizon BioPharma Labs	8888 Nowhere St, 400 Technology Sq, Cambridge, MA 02139	United States
+S3-01044	Unrelated Imperial Automotive Group	8888 Nowhere St, 700 Michigan Ave, Detroit, MI 48226	United States
+S3-01045	Unrelated Jupiter Retail Enterprises	8888 Nowhere St, 500 Pine St, St. Louis, MO 63101	United States
+S3-01046	Unrelated Tata Consultancy Services Ltd	8888 Nowhere St, Nirmal Building, 9th Floor, Nariman Point, Mumbai 400021	India
+S3-01047	Unrelated Infosys Technologies Pvt Ltd	8888 Nowhere St, Electronics City, Hosur Road, Bengaluru 560100	India
+S3-01048	Unrelated Wipro Digital Solutions	8888 Nowhere St, Doddakannelli, Sarjapur Road, Bengaluru 560035	India
+S3-01049	Unrelated Reliance Industries Limited	8888 Nowhere St, Maker Chambers IV, 222 Nariman Point, Mumbai 400021	India
+S3-01050	Unrelated HDFC Financial Services Ltd	8888 Nowhere St, HDFC Bank House, Senapati Bapat Marg, Lower Parel, Mumbai 400013	India
+S3-01051	Unrelated Mahindra & Mahindra Enterprises	8888 Nowhere St, Gateway Building, Apollo Bunder, Mumbai 400001	India
+S3-01052	Unrelated Bharti Airtel Telecommunications	8888 Nowhere St, Bharti Crescent, 1 Nelson Mandela Road, Vasant Kunj, New Delhi 110070	India
+S3-01053	Unrelated Larsen & Toubro Construction	8888 Nowhere St, L&T House, Ballard Estate, Mumbai 400001	India
+S3-01054	Unrelated Sun Pharmaceutical Industries	8888 Nowhere St, SUN House, CTS No 201 B/1, Western Express Highway, Goregaon East, Mumbai 400063	India
+S3-01055	Unrelated Adani Enterprises Limited	8888 Nowhere St, Adani Corporate House, Shantigram, Near Vaishno Devi Circle, Ahmedabad 382421	India

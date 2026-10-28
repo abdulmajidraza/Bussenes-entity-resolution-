@@ -1,0 +1,81 @@
+entity_id	business_name	business_address	country
+S1-00101	Apex Technologies Corp	100 Industrial Parkway, Suite 400, Austin, TX 78701	United States
+S1-00102	Blue Sky Logistics LLC	550 Market St, Floor 12, San Francisco, CA 94105	United States
+S1-00103	Cascade Health Systems Inc	800 Bellevue Way NE, Bellevue, WA 98004	United States
+S1-00104	Dynamic Digital Media Group	200 Fifth Avenue, New York, NY 10010	United States
+S1-00105	EVERGREEN RENEWABLE ENERGY	1200 6th Ave, Seattle, WA 98101	United States
+S1-00106	Frontier Financial Services	300 S Wacker Dr, Chicago, IL 60606	United States
+S1-00107	Global Tech Solutions	1 Penn Plaza New York NY 10119	United States
+S1-00108	Horizon BioPharma Labs	400 Technology Sq Cambridge MA 02139	United States
+S1-00109	Imperial Automotive Group	700 Michigan Ave, Detroit, MI 48226	United States
+S1-00110	Jupiter Retail Enterprises	500 pine st, st. louis, mo 63101	United States
+S1-00111	Tata Consultancy Services Ltd	Nirmal Building 9th Floor Nariman Point Mumbai 400021	India
+S1-00112	INFOSYS TECHNOLOGIES PVT LTD	electronics city, hosur road, bengaluru 560100	India
+S1-00113	Wipro Digital Solutions	Doddakannelli, Sarjapur Rd, Bengaluru 560035	India
+S1-00114	reliance industries limited	maker chambers iv, 222 nariman point, mumbai 400021	India
+S1-00115	HDFC Financial Services Ltd	hdfc bank house, senapati bapat marg, lower parel, mumbai 400013	India
+S1-00116	Mahindra & Mahindra Enterprises	gateway building, apollo bunder, mumbai 400001	India
+S1-00117	BHARTI AIRTEL TELECOMMUNICATIONS	Bharti Crescent, 1 Nelson Mandela Rd, Vasant Kunj, New Delhi 110070	India
+S1-00118	Larsen and Toubro Construction	L&T House, Ballard Estate, Mumbai 400001	India
+S1-00119	Sun Pharmaceutical Industries Inc.	SUN House, CTS No 201 B/1, Western Express Highway, Goregaon East, Mumbai 400063	India
+S1-00120	Adani Enterprises Limited Inc.	adani corporate house, shantigram, near vaishno devi circle, ahmedabad 382421	India
+S1-00121	Société Générale SA	29 Boulevard Haussmann, 75009 Paris	France
+S1-00122	TotalEnergies Marketing SARL	2 Place Jean Millier 92400 Courbevoie	France
+S1-00123	Schneider Electric SE	35 Rue Joseph Monier 92500 Rueil-Malmaison	France
+S1-00124	Danone Agro-Alimentaire	17 Boulevard Haussmann, 75009 Paris	France
+S1-00125	air france-klm group	45 rue de paris, 95747 roissy cdg	France
+S1-00126	capgemini engineering services	11 Rue de Tilsitt, 75017 Paris	France
+S1-00127	Sanofi Healthcare France	54 Rue La Boétie, 75008 Paris	France
+S1-00128	L'ORÉAL BEAUTY & COSMETICS	41 Rue Martre, 92117 Clichy	France
+S1-00129	apex technologies corp branch 1	280 100 Industrial Parkway, Suite 400, Austin, TX 78701	United States
+S1-00130	BLUE SKY LOGISTICS LLC BRANCH 1	290 550 market street, floor 12, san francisco, ca 94105	United States
+S1-00131	Cascade Health Systems Inc Branch 1	300 800 Bellevue Way NE, Bellevue, WA 98004	United States
+S1-00132	dynamic digital media group branch 1	310 200 Fifth Ave, New York, NY 10010	United States
+S1-00133	Evergreen Renewable Energy Branch 1	320 1200 6th ave, seattle, wa 98101	United States
+S1-00134	Frontier Financial Services Branch 1 Inc.	330 300 s wacker dr, chicago, il 60606	United States
+S1-00135	Global Tech Solutions Branch 1 Inc.	340 1 Penn Plaza, New York, NY 10119	United States
+S1-00136	horizon biopharma labs branch 1	350 400 Technology Sq, Cambridge, MA 02139	United States
+S1-00137	Imperial Automotive Group Branch 1	360 700 Michigan Ave, Detroit, MI 48226	United States
+S1-00138	Jupiter Retail Enterprises Branch 1	370 500 Pine St St. Louis MO 63101	United States
+S1-00139	Tata Consultancy Services Ltd Branch 1 Inc.	380 Nirmal Building, 9th Floor, Nariman Point, Mumbai 400021	India
+S1-00140	INFOSYS TECHNOLOGIES PVT LTD BRANCH 1	390 Electronics City, Hosur Rd, Bengaluru 560100	India
+S1-00141	WIPRO DIGITAL SOLUTIONS BRANCH 1	400 Doddakannelli, Sarjapur Rd, Bengaluru 560035	India
+S1-00142	reliance industries limited branch 1	410 Maker Chambers IV, 222 Nariman Point, Mumbai 400021	India
+S1-00143	HDFC Financial Services Ltd Branch 1	420 HDFC Bank House, Senapati Bapat Marg, Lower Parel, Mumbai 400013	India
+S1-00144	Mahindra & Mahindra Enterprises Branch 1	430 Gateway Building, Apollo Bunder, Mumbai 400001	India
+S1-00145	Bharti Airtel Telecommunications Branch 1	440 bharti crescent, 1 nelson mandela road, vasant kunj, new delhi 110070	India
+S1-00146	Larsen and Toubro Construction Branch 1	450 L&T House Ballard Estate Mumbai 400001	India
+S1-00147	Sun Pharmaceutical Industries Branch 1	460 SUN House, CTS No 201 B/1, Western Express Highway, Goregaon East, Mumbai 400063	India
+S1-00148	Adani Enterprises Ltd Branch 1	470 Adani Corporate House Shantigram Near Vaishno Devi Circle Ahmedabad 382421	India
+S1-00149	Société Générale SA Branch 1	480 29 Boulevard Haussmann, 75009 Paris	France
+S1-00150	TotalEnergies Marketing SARL Branch 1	490 2 Place Jean Millier 92400 Courbevoie	France
+S1-00151	schneider electric se branch 1	500 35 Rue Joseph Monier, 92500 Rueil-Malmaison	France
+S1-00152	Danone Agro-Alimentaire Branch 1	510 17 boulevard haussmann, 75009 paris	France
+S1-00153	Air France-KLM Group Branch 1	520 45 Rue de Paris, 95747 Roissy CDG	France
+S1-00154	Capgemini Engineering Services Branch 1	530 11 Rue de Tilsitt 75017 Paris	France
+S1-00155	Sanofi Healthcare France Branch 1	540 54 Rue La Boétie, 75008 Paris	France
+S1-00156	L'Oréal Beauty & Cosmetics Branch 1 Inc.	550 41 Rue Martre, 92117 Clichy	France
+S1-00157	Apex Technologies Corp Branch 2 Inc.	560 100 Industrial Parkway, Suite 400, Austin, TX 78701	United States
+S1-00158	Blue Sky Logistics LLC Branch 2	570 550 Market Street Floor 12 San Francisco CA 94105	United States
+S1-00159	cascade health systems inc branch 2	580 800 Bellevue Way NE, Bellevue, WA 98004	United States
+S1-00160	Dynamic Digital Media Group Branch 2	590 200 Fifth Ave, New York, NY 10010	United States
+S1-00161	Evergreen Renewable Energy Branch 2	600 1200 6th Ave Seattle WA 98101	United States
+S1-00162	Frontier Financial Services Branch 2	610 300 S Wacker Dr, Chicago, IL 60606	United States
+S1-00163	Global Tech Solutions Branch 2	620 1 Penn Plaza, New York, NY 10119	United States
+S1-00164	Horizon BioPharma Labs Branch 2	630 400 technology sq, cambridge, ma 02139	United States
+S1-00165	imperial automotive group branch 2	640 700 Michigan Ave, Detroit, MI 48226	United States
+S1-00166	Jupiter Retail Enterprises Branch 2	650 500 Pine St, St. Louis, MO 63101	United States
+S1-00167	Tata Consultancy Services Ltd Branch 2	660 Nirmal Building, 9th Floor, Nariman Point, Mumbai 400021	India
+S1-00168	Infosys Technologies Pvt Ltd Branch 2	670 Electronics City, Hosur Road, Bengaluru 560100	India
+S1-00169	Wipro Digital Solutions Branch 2	680 Doddakannelli, Sarjapur Road, Bengaluru 560035	India
+S1-00170	RELIANCE INDUSTRIES LIMITED BRANCH 2	690 Maker Chambers IV, 222 Nariman Point, Mumbai 400021	India
+S1-00171	HDFC Financial Services Ltd Branch 2	700 hdfc bank house, senapati bapat marg, lower parel, mumbai 400013	India
+S1-00172	Mahindra & Mahindra Enterprises Branch 2	710 gateway building, apollo bunder, mumbai 400001	India
+S1-00173	Bharti Airtel Telecommunications Branch 2	720 Bharti Crescent, 1 Nelson Mandela Road, Vasant Kunj, New Delhi 110070	India
+S1-00174	LARSEN & TOUBRO CONSTRUCTION BRANCH 2	730 L&T House, Ballard Estate, Mumbai 400001	India
+S1-00175	SUN PHARMACEUTICAL INDUSTRIES BRANCH 2	740 sun house, cts no 201 b/1, western express highway, goregaon east, mumbai 400063	India
+S1-00176	Adani Enterprises Ltd Branch 2	750 adani corporate house, shantigram, near vaishno devi circle, ahmedabad 382421	India
+S1-00177	Société Générale SA Branch 2	760 29 boulevard haussmann, 75009 paris	France
+S1-00178	TotalEnergies Marketing SARL Branch 2	770 2 Place Jean Millier, 92400 Courbevoie	France
+S1-00179	Schneider Electric SE Branch 2	780 35 Rue Joseph Monier, 92500 Rueil-Malmaison	France
+S1-00180	DANONE AGRO-ALIMENTAIRE BRANCH 2	790 17 Boulevard Haussmann, 75009 Paris	France

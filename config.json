@@ -1,0 +1,9 @@
+{
+  "threshold": 0.05,
+  "validation_f05": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "blocking_recall": 1.0,
+  "top_k": 50,
+  "random_state": 42
+}

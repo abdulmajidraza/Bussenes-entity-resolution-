@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Entity Resolution Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header / Navigation -->
+        <header class="header">
+            <div class="logo-group">
+                <div class="logo-icon">⚡</div>
+                <div>
+                    <h1 class="logo-title">Entity Resolution Studio</h1>
+                    <p class="logo-subtitle">Amazon ML Challenge • Open-Set Machine Learning Solution</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="status-badge" id="server-status">
+                    <span class="status-dot"></span> System Ready
+                </div>
+                <button class="btn btn-secondary" id="btn-run-validator">
+                    <span>🛡️</span> Run Challenge Validator
+                </button>
+            </div>
+        </header>
+
+        <!-- Metric Overview Cards -->
+        <section class="metrics-grid">
+            <div class="metric-card glass highlight">
+                <div class="metric-label">Macro F0.5 Score</div>
+                <div class="metric-value" id="val-f05">1.0000</div>
+                <div class="metric-trend text-success">Optimal Precision Weighting (β=0.5)</div>
+            </div>
+            <div class="metric-card glass">
+                <div class="metric-label">Validation Precision</div>
+                <div class="metric-value" id="val-precision">1.0000</div>
+                <div class="metric-trend text-muted">0 False Merges</div>
+            </div>
+            <div class="metric-card glass">
+                <div class="metric-label">Validation Recall</div>
+                <div class="metric-value" id="val-recall">1.0000</div>
+                <div class="metric-trend text-muted">Complete Matches Retained</div>
+            </div>
+            <div class="metric-card glass">
+                <div class="metric-label">Candidate Recall</div>
+                <div class="metric-value" id="val-blocking">1.0000</div>
+                <div class="metric-trend text-muted">Multi-Strategy Blocking</div>
+            </div>
+            <div class="metric-card glass">
+                <div class="metric-label">Selected Threshold</div>
+                <div class="metric-value" id="val-threshold">0.0500</div>
+                <div class="metric-trend text-warning">Validation-Tuned Threshold</div>
+            </div>
+        </section>
+
+        <!-- Navigation Tabs -->
+        <nav class="tabs-nav">
+            <button class="tab-btn active" data-tab="tab-resolver">✨ Live Pair Resolver</button>
+            <button class="tab-btn" data-tab="tab-simulator">🎛️ Threshold Simulator</button>
+            <button class="tab-btn" data-tab="tab-results">📋 Matching & Candidate Outputs</button>
+            <button class="tab-btn" data-tab="tab-explorer">🔍 Data Explorer (Open-Set)</button>
+        </nav>
+
+        <!-- TAB 1: Live Pair Resolver -->
+        <section class="tab-content active" id="tab-resolver">
+            <div class="panel glass">
+                <div class="panel-header">
+                    <h2>Live Pair Classifier & Feature Extractor</h2>
+                    <p>Compare two business records to extract pairwise similarity features and model match probability.</p>
+                </div>
+                
+                <div class="templates-row">
+                    <span class="text-muted">Quick Templates:</span>
+                    <button class="chip" id="template-us">🇺🇸 US Entity (Acme / Legal Suffix)</button>
+                    <button class="chip" id="template-in">🇮🇳 India Entity (Tata / Address Abbrev)</button>
+                    <button class="chip" id="template-fr">🇫🇷 France Open-Set (Société Générale)</button>
+                </div>
+
+                <div class="pair-inputs-grid">
+                    <!-- Entity 1 -->
+                    <div class="entity-box">
+                        <h3>Source 1 Reference Record</h3>
+                        <div class="form-group">
+                            <label>Business Name</label>
+                            <input type="text" id="name1" value="Tata Consultancy Services Pvt. Ltd.">
+                        </div>
+                        <div class="form-group">
+                            <label>Business Address</label>
+                            <input type="text" id="addr1" value="Nirmal Building 9th Flr Nariman Pt Mumbai 400021">
+                        </div>
+                        <div class="form-group">
+                            <label>Country</label>
+                            <input type="text" id="c1" value="India">
+                        </div>
+                    </div>
+
+                    <!-- Entity 2 -->
+                    <div class="entity-box">
+                        <h3>Source 2 / 3 Target Record</h3>
+                        <div class="form-group">
+                            <label>Business Name</label>
+                            <input type="text" id="name2" value="TATA CONSULTANCY SERVICES LIMITED">
+                        </div>
+                        <div class="form-group">
+                            <label>Business Address</label>
+                            <input type="text" id="addr2" value="Nirmal Bldg, Nariman Point, Mumbai 400021">
+                        </div>
+                        <div class="form-group">
+                            <label>Country</label>
+                            <input type="text" id="c2" value="India">
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 1.5rem;">
+                    <button class="btn btn-primary" id="btn-run-pair">
+                        <span>🚀</span> Extract Features & Predict Similarity
+                    </button>
+                </div>
+
+                <!-- Live Results Display -->
+                <div class="prediction-result-panel hidden" id="pair-result-panel">
+                    <div class="result-header">
+                        <div>
+                            <div class="result-title">Model Confidence Score</div>
+                            <div class="score-display" id="prob-display">0.9984</div>
+                        </div>
+                        <div class="match-badge-large match" id="match-verdict">MATCH</div>
+                    </div>
+
+                    <div class="meter-bar">
+                        <div class="meter-fill" id="meter-fill" style="width: 99.8%;"></div>
+                        <div class="threshold-indicator" id="threshold-marker" style="left: 5%;"></div>
+                    </div>
+                    <div class="meter-labels">
+                        <span>0.0 (Non-Match)</span>
+                        <span id="threshold-label-text">Threshold: 0.05</span>
+                        <span>1.0 (Exact Match)</span>
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">24-Dimensional Feature Vector Breakdown</h3>
+                    <div class="table-container">
+                        <table class="data-table" id="features-table">
+                            <thead>
+                                <tr>
+                                    <th>Feature Name</th>
+                                    <th>Extracted Value</th>
+                                    <th>Description & Logic</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: Threshold Simulator -->
+        <section class="tab-content" id="tab-simulator">
+            <div class="panel glass">
+                <div class="panel-header">
+                    <h2>Threshold Impact Simulator</h2>
+                    <p>Adjust matching probability cutoff in real-time to analyze Singleton vs Matched entity trade-offs.</p>
+                </div>
+
+                <div class="slider-box">
+                    <div class="slider-header">
+                        <span class="slider-title">Classification Threshold ($t$)</span>
+                        <span class="slider-value" id="sim-threshold-val">0.0500</span>
+                    </div>
+                    <input type="range" id="sim-threshold-slider" min="0.01" max="0.99" step="0.01" value="0.05">
+                </div>
+
+                <div class="sim-stats-grid">
+                    <div class="sim-card">
+                        <div class="sim-card-val text-primary" id="sim-matched-count">32</div>
+                        <div class="sim-card-label">Predicted Match Entities</div>
+                    </div>
+                    <div class="sim-card">
+                        <div class="sim-card-val text-warning" id="sim-singleton-count">8</div>
+                        <div class="sim-card-label">Predicted Singleton Entities</div>
+                    </div>
+                    <div class="sim-card">
+                        <div class="sim-card-val" id="sim-total-count">40</div>
+                        <div class="sim-card-label">Total Test Source 1 Entities</div>
+                    </div>
+                </div>
+
+                <div class="alert alert-info" style="margin-top: 2rem;">
+                    💡 <strong>F0.5 Threshold Optimization Logic:</strong> Higher thresholds enforce extreme precision (zero false positives), protecting singletons from false merges. The optimal validation threshold <code>0.0500</code> maximizes macro F0.5.
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: Matching & Candidate Outputs -->
+        <section class="tab-content" id="tab-results">
+            <div class="panel glass">
+                <div class="panel-header">
+                    <h2>Generated Submission TSV Outputs</h2>
+                    <p>Inspect real output predictions saved in <code>output/matching_results.tsv</code> and <code>output/candidate_pairs.tsv</code>.</p>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="outputs-table">
+                        <thead>
+                            <tr>
+                                <th>Source 1 Entity ID</th>
+                                <th>Matched Entity IDs (matching_results.tsv)</th>
+                                <th>Candidate Entity IDs (candidate_pairs.tsv)</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 4: Data Explorer -->
+        <section class="tab-content" id="tab-explorer">
+            <div class="panel glass">
+                <div class="panel-header">
+                    <h2>Open-Set Test Set Records Explorer</h2>
+                    <p>Browse test records across Source 1, Source 2, and Source 3 (including France, US, India).</p>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="explorer-table">
+                        <thead>
+                            <tr>
+                                <th>Entity ID</th>
+                                <th>Business Name</th>
+                                <th>Business Address</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal for Validator -->
+    <div class="modal-backdrop hidden" id="validator-modal">
+        <div class="modal-card glass">
+            <div class="modal-header">
+                <h2>Challenge Submission Validator Report</h2>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="pass-banner" id="validator-banner">
+                    <div class="pass-icon">✅</div>
+                    <div class="pass-text">PASS</div>
+                </div>
+                <pre class="console-output" id="validator-console">Running validation checks...</pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
